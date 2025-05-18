@@ -12,7 +12,8 @@ training exercise.
 - To generate pictures that a larger than the screen resolution. You can
 easily generate VERY large pictures with it, practically only limited by
 your memory (PNG - the output format - can be 2 billion pixels on each side).
-I used this to generate large high-resolution prints to hang in my stairwell.
+I used this to generate large high-resolution prints (posters - hence the
+name!) to hang in my stairwell.
 
 In all honesty, I haven touched this piece of software in about five years. 
 There's a number of things I'd like to implement, see the corresponding 
