@@ -1,6 +1,6 @@
 # === Where files can be found
 INCLUDEPATH += src/
-INCLUDEPATH += shared/
+INCLUDEPATH += ../Shared/
 
 # === Where files go
 OBJECTS_DIR = build/
@@ -24,12 +24,12 @@ RESOURCES = MandelPoster.qrc
 # Application icon
 ICON = resources/MandelPoster.icns
 
-HEADERS += shared/CallTracer.h
-SOURCES += shared/CallTracer.cpp
-HEADERS += shared/MessageLogger.h
-SOURCES += shared/MessageLogger.cpp
-HEADERS += shared/StringHelper.h
-SOURCES += shared/StringHelper.cpp
+HEADERS += ../Shared/CallTracer.h
+SOURCES += ../Shared/CallTracer.cpp
+HEADERS += ../Shared/MessageLogger.h
+SOURCES += ../Shared/MessageLogger.cpp
+HEADERS += ../Shared/StringHelper.h
+SOURCES += ../Shared/StringHelper.cpp
 
 # Specific classes
 HEADERS += src/Application.h
